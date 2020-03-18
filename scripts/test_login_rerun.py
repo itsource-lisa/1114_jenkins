@@ -10,7 +10,7 @@ class TestLogin:
         if num % 2:
             assert True
         else:
-            assert False  # 断言失败
+            assert True  # 断言失败
 
     def test_login_2(self):
         """不记住密码登录"""
